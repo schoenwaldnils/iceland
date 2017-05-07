@@ -1,0 +1,44 @@
+/*
+ * Shame CSS: for the stuff that didn't fit anywhere else.
+ * Or stuff you need to clean up.
+ */
+
+.Page-title {
+  margin-bottom: .5em;
+}
+
+@media (--sm-viewport-max) {
+  .wp-caption {
+    width: 100% !important;
+  }
+}
+
+.kontakt_table td {
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.Grid-cell {
+  position: relative;
+}
+
+/*
+ * Cookie law plugin
+ */
+.cn-bottom {
+  box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+
+.cn-set-cookie {
+  padding: .25em .5em;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: var(--color-blue);
+  border: 0;
+  border-radius: 2px;
+  transition: 150ms;
+}
+
+.cn-set-cookie:hover {
+  background-color: var(--color-green);
+}

@@ -1,0 +1,32 @@
+/*
+ * Tablepress
+ */
+
+.tablepress-table-name-id-oeff {
+  margin-bottom: .25em;
+  font-family: var(--font-family);
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.tablepress-table-name-id-oeff:after {
+  content: ':';
+}
+
+.tablepress-id-oeff td {
+  padding: 0 0 .25em !important;
+  border-top: 0 !important;
+}
+
+.tablepress caption {
+  font-size: .6em;
+  font-family: monospace;
+}
+
+.tablepress caption:before {
+  content: '> ';
+}
+
+.tablepress caption:hover {
+  color: var(--color-blue);
+}

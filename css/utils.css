@@ -1,0 +1,30 @@
+.l-maxWidth {
+  max-width: 56rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (--sm-viewport) {
+  .l-maxWidth {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.l-contentBox {
+  margin-bottom: var(--Grid-gutter-size);
+  background: #fff;
+  box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .15);
+}
+
+.l-contentBoxPadding {
+  padding: .75rem;
+}
+
+@media (--sm-viewport) {
+  .l-contentBoxPadding {
+    padding: 1.25rem;
+  }
+}

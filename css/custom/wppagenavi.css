@@ -1,0 +1,29 @@
+/*
+ * WP-PageNavi
+ */
+
+.wp-pagenavi {
+  text-align: center;
+}
+
+
+/* each items */
+.wp-pagenavi > * {
+  display: inline-block;
+  width: 32px;
+  line-height: 32px;
+  text-align: center;
+  transition: all 150ms;
+}
+
+.wp-pagenavi .page:hover,
+.wp-pagenavi .nextpostslink:hover {
+  background-color: var(--color-blue);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.wp-pagenavi .current {
+  color: var(--color-blue);
+}

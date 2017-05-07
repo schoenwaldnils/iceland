@@ -1,0 +1,41 @@
+{
+  "name": "iceland",
+  "description": "Photo journey from my Iceland-tour 2017",
+  "version": "0.1.0",
+  "author": "Nils Schönwald <nils@schoenwald.media>",
+  "dependencies": {
+    "gatsby": "^0.12.41",
+    "lodash": "^4.17.2",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.8",
+    "react-addons-shallow-compare": "^15.5.2",
+    "react-helmet": "^3.2.2",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.0",
+    "typography-theme-wordpress-2016": "^0.15.0",
+    "underscore.string": "^3.2.3",
+    "webpack-postcss-tools": "^1.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+  }
+}
